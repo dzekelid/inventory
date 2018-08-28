@@ -7,11 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Inventory
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - Uploads an inventory document for a tenant role
+  x-api-slug: apiprogressionlettingsroleidinventoryuploaddocument-post
+  description: Uploads an inventory document for a tenant role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apiprogressionlettingsroleidinventoryuploaddocument-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Sets whether inventory is needed on tenant role
+  x-api-slug: apiprogressionlettingsroleidinventorysetrequired-post
+  description: Sets whether inventory is needed on tenant role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apiprogressionlettingsroleidinventorysetrequired-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Sets whether inventory is agreed with tenants
   x-api-slug: apiprogressionlettingsroleidinventorysetagreed-post
   description: Sets whether inventory is agreed with tenants.
@@ -24,6 +44,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apiprogressionlettingsroleidinventorysetagreed-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apiprogressionlettingsroleidinventorysetagreed-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Add a note to a tenant role inventory
+  x-api-slug: apiprogressionlettingsroleidinventorysavenote-post
+  description: Add a note to a tenant role inventory.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apiprogressionlettingsroleidinventorysavenote-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

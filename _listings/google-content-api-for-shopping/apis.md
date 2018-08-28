@@ -12,11 +12,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Inventory
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/google-content-api-for-shopping/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Content API for Shopping - Inventory
+  x-api-slug: inventorybatch-post
+  description: Updates price and availability for multiple products or stores in a
+    single request. This operation does not update the expiration date of the products.
+    This method can only be called for non-multi-client accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/google-content-api-for-shopping/inventorybatch-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.container.engine.api.gallery.streamdata.io

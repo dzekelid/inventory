@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Inventory
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/apis.md
 specificationVersion: "0.14"
 apis:
@@ -35,6 +35,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/actiongetinventory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/actiongetinventory-get-openapi.md
+- name: AWS EC2 Systems Manager API - Get Inventory Schema
+  x-api-slug: actiongetinventoryschema-get
+  description: |-
+    Return a list of inventory type names for the account, or return a list of attribute
+       names for a specific Inventory item type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/actiongetinventoryschema-get-openapi.md
+- name: AWS EC2 Systems Manager API - List Inventory Entries
+  x-api-slug: actionlistinventoryentries-get
+  description: A list of inventory items returned by the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/actionlistinventoryentries-get-openapi.md
 - name: AWS EC2 Systems Manager API - Put Inventory
   x-api-slug: actionputinventory-get
   description: Bulk update custom inventory items on one more instance.

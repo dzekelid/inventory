@@ -1,0 +1,242 @@
+{
+	"name": "Streadata.io API Gallery - Inventory",
+	"description": "This is a repository of inventory APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/inventory.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://inventory.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Retailigence Corp.",
+			"x-api-slug": "retailigence-corp-",
+			"description": "Powering location-based marketing. Designed for retailers, brands, agencies, and developers.   (Acquired by @ShopAdvisorInc)",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/246-retailigence-corp-.jpg",
+			"humanURL": "http://www.retailigence.com/",
+			"baseURL": "https:///",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/retailigence-corp-/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fishbowl",
+			"x-api-slug": "fishbowl",
+			"description": "Fishbowl, the #1 inventory management software for QuickBooks, offers multi-location tracking, manufacturing, barcoding and more. Also runs standalone for asset tracking.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/786-fishbowl.jpg",
+			"humanURL": "http://www.fishbowlinventory.com/developer-network/tools",
+			"baseURL": "https:///",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/fishbowl/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigCommerce",
+			"x-api-slug": "bigcommerce",
+			"description": "BigCommerce is the world&rsquo;s leading cloud ecommerce platform for established and rapidly-growing businesses. Combining enterprise functionality, an open architecture and app ecosystem, and market-leading performance, BigCommerce enables businesses to grow online sales with 80% less cost, time and complexity than on-premise software. BigCommerce powers B2B and B2C ecommerce for more than 60,000 SMBs, 2,000+ mid-market businesses, more than 25 Fortune 1000 companies, and industry-leading brands.",
+			"image": "",
+			"humanURL": "http://bigcommerce.com",
+			"baseURL": "https://api.bigcommerce.com//stores",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/bigcommerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS S3",
+			"x-api-slug": "aws-s3",
+			"description": "Amazon Simple Storage Service (Amazon S3) is object storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is designed to deliver 99.999999999% durability, and scale past trillions of objects worldwide.Customers use S3 as a bulk repository, or data lake, for analytics; backup &amp; recovery; disaster recovery; and serverless computing. Many cloud-native applications even use S3 as primary storage.Its simple to move large volumes of data into or out of S3 with Amazonscloud data migrationoptions. Once data is stored in Amazon S3, it can be automatically tiered into lower cost, longer-termcloud storageclasses like S3 Standard - Infrequent Access and Amazon Glacier for archiving.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png",
+			"humanURL": "https://aws.amazon.com/s3/",
+			"baseURL": "https:////",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-s3/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"x-api-slug": "aws-ec2-systems-manager",
+			"description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems. These capabilities help you define and track system configurations, prevent drift, and maintain software compliance of your EC2 and on-premises configurations. By providing a management approach that is designed for the scale and agility of the cloud but extends into your on-premises data center, EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from the EC2 Management Console, select the instances you want to manage, and define the management tasks you want to perform. EC2 Systems Manager is available now at no cost to manage both your EC2 and on-premises resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/systems-manager/",
+			"baseURL": ":///",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"x-api-slug": "google-content-api-for-shopping",
+			"description": "API allowing retailers to manage their product feed content programmatically. Providing item-level data quality information: See if an item was disapproved because a landing page URL isn&rsquo;t working on a mobile device or if unique product identifiers are inaccurate. Faster pricing and availability updates: Ensure customers have the latest price-points and know what&rsquo;s in-stock before they click through to your site. More integration options: The newer API supports a broader choice of programming languages and data formats.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg",
+			"humanURL": "https://developers.google.com/shopping-content/v2/quickstart",
+			"baseURL": "://www.googleapis.com//content/v2",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/google-content-api-for-shopping/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Broadleaf Commerce",
+			"x-api-slug": "broadleaf-commerce",
+			"description": "Broadleaf Commerce is a software technology company headquartered in Dallas, Texas, providing an open source Java eCommerce platform based on Spring Framework.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg",
+			"humanURL": "https://www.broadleafcommerce.com",
+			"baseURL": "https://demo.broadleafcommerce.org//api/v1",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/broadleaf-commerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Inventory",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Inventory",
+	"include": [
+		{
+			"name": "Retailigence Corp.",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/retailigence-corp-/apis.yaml"
+		},
+		{
+			"name": "Fishbowl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/fishbowl/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "BigCommerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/bigcommerce/apis.yaml"
+		},
+		{
+			"name": "AWS S3",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-s3/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/aws-ec2-systems-manager/apis.yaml"
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/google-content-api-for-shopping/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Broadleaf Commerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/broadleaf-commerce/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inventory/master/_listings/logicbroker/apis.yaml"
+		}
+	]
+}
